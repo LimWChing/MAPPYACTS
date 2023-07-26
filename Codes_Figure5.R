@@ -1,3 +1,5 @@
+## A biobank of pediatric patient-derived-xenograft models in cancer precision medicine trial MAPPYACTS for relapsed and refractory tumors
+## Figure 5: HLA class I alleles detected in PDX models from pediatric solid cancers
 pacman::p_load(readxl, tidyverse, pheatmap, RColorBrewer, ggplot2)
 
 setwd("E:/France_Neoepitope/MOSCATO_MAPPY_paper/1_PDX_NatureComms_20230207/Revision/")
