@@ -2,7 +2,6 @@
 ## Figure 5: HLA class I alleles detected in PDX models from pediatric solid cancers
 pacman::p_load(readxl, tidyverse, pheatmap, RColorBrewer, ggplot2)
 
-setwd("E:/France_Neoepitope/MOSCATO_MAPPY_paper/1_PDX_NatureComms_20230207/Revision/")
 df <- read_excel("Supplementary Data 3.xlsx", sheet = "Figure5") %>% 
   filter(Gene == "HLA-A") %>% # select HLA gene (HLA-A, HLA-B or HLA-C)
   select(-c(Gene)) %>% 
